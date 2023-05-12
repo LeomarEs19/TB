@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="./css/resultado.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Ficha Tecnica</h1>
+
+        <div class="data-container">
+
+            <p><span>Caracterisicas Del Producto:</span></p>
+                <h3>Nombre Producto</h3>
+                <h2><span id="datoproducto"></span></h2>
+                    <h3>Tipo De Sistema</h3>
+                    <h2><span id="datosistema"></span></h2>
+
+            <p><span>Descripcion Del Producto:</span></p>
+                <h3>Requerimientos Fisicos</h3>
+                <h2><span id="datodescrip"></span></h2>
+                    <h3>Requerimientos Fisicos</h3>
+                    <h2><span id="datoobjetivo"></span></h2>
+
+            <p><span>Requisitos Del Producto:</span></p>
+                    <h2>Requisitos Del Server</h2>
+                <h3>Requerimientos Fisicos</h3>
+                <h2><span id="datofisico"></span></h2>
+                    <h3>Requerimientos Fisicos</h3>
+                    <h2><span id="datorecom"></span></h2>
+            
+            <p><span>Requerimientos Del Cliente:</span></p>
+                <h3>Recomendaciones cliente</h3>
+                <h2><span id="datocliente"></span></h2>
+                     <h3>Especificacion</h3>
+                    <h2><span id="datoespec"></span></h2>
+            
+            <p><span>Requerimientos:</span></p>
+                <h2><span id="datoreque"></span></h2>
+            
+            <p><span>Fecha:</span></p>
+                <h2><span id="datofecha"></span></h2>
+        </div>
+    </div>
+
+    <button id="resetBtn">Resetear Local Storage</button>
+
+    <button onclick="almacenarDatos()">borrar</button>
+
+    <p>
+        <a href="./menu.html" target="">Volver</a>
+    </p>
+
+    <script defer src="./js/resultado.js"></script>
+    <script defer src="./js/resultado2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Formato Ficha</h1>
+
+    <fieldset>
+
+        <div>
+            <p>Caractersiticas Del Producto</p>
+            <input type="text" id="producto" placeholder="Nombre Producto"><br><br>
+                <input type="text" id="sistema" placeholder="Tipo Sistema"><br><br>
+
+            <p>Descripcion Del Producto</p>
+            <input type="email" id="descrip" placeholder="Descripcion"><br><br>
+                <input type="text" id="objetivo" placeholder="Objetivo Producto"><br><br>
+
+            <p>Requerimiento Del Producto</p>
+                <h3>Requisitos Del Server</h3>
+            <input type="text" id="fisico" placeholder="Requerimientos Fisicos"><br><br>
+                <input type="text" id="recom" placeholder="Recomendaciones">
+
+            <p>Requerimientos Del Cliente</p>
+            <input type="text" id="cliente" placeholder="Recomendaciones cliente"><br><br>
+                <input type="text" id="espec" placeholder="Especificacion">
+
+            <p>Requerimientos</p>
+            <input type="text" id="reque" placeholder="Requerimiento"><br><br>
+
+            <p>Fecha</p>
+            <input type="date" id="fecha" ><br><br>
+        </div>
+
+    </fieldset>
+    
+    
+    <button onclick="almacenarDatos()"><a href="./resultado.html">enviar</a></button> <button id="resetBtn">Resetear Local Storage</button>
+    
+    <script defer src="./js/resultado.js"></script>
+
+</body>
+</html>

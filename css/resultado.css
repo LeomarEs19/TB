@@ -1,0 +1,48 @@
+/* ficha2.css */
+body {
+    text-align: center;
+    margin: 100px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+h1 {
+    color: #131212d7;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+}
+  
+.data-container {
+    background-color: #d1cccc46;
+    border: 2px solid #ccc;
+    padding: 60px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+  
+.data-container p {
+    margin-bottom: 10px;
+}
+  
+.data-container span {
+    font-weight: bold;
+}
+  
+  #datoNombre,
+  #datoApellido,
+  #datoCorreo,
+  #datoDirección,
+  #datoTelefono,
+  #datoFecha {
+    color: #f1f1f1;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.6em;
+}
