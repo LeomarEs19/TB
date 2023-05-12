@@ -1,4 +1,7 @@
-body{
+body {
+    width: 100%;
+    height: 5vh;
+    text-align: center;
     
 }
 
@@ -30,3 +33,25 @@ button:active {
     transition: 100ms;
 }
 
+.btn {
+    padding: 0;
+    font-size: 1.7rem;
+    border-radius: 8rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(75, 77, 75, 0.589);
+    color: rgb(12, 12, 12);
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(255, 254, 254, 0), rgba(0,0,0,0.4));
+}
+  
+.btn:active {
+    scale: 0.92;
+}
+  
+.btn:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(98, 6, 134, 0.873) 60%);
+    color: rgb(240, 240, 243);
+}
